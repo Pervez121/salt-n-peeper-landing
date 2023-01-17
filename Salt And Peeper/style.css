@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+@import url(fonts/Philosopher/Philosopher-Bold.ttf);
+@import url(fonts/Philosopher/Philosopher-BoldItalic.ttf);
+@import url(fonts/Philosopher/Philosopher-Italic.ttf);
+@import url(fonts/Philosopher/Philosopher-Regular.ttf);
+
+.pholosipher, .nav-link {
+    font-family: "Philosopher" !important; 
+}
+
+.red-color, li.nav-item a:hover, .fa-red{
+    color: red !important;
+}
+.black-bg{
+    background-color: #222222 !important;
+}
+
+.white-color, li.nav-item{
+    color: white;
+}
+
+
+li.nav-item {
+    font-size: medium;
+}
+
+section.main-navigation {
+    border-bottom: solid 1px red;
+}
+a.navbar-brand {
+    margin: 0px 50px;
+}
+li.nav-item a {
+    font-family: "Philosopher", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+}
+section.landing-carousal {
+    background-color: #222222;
+    padding: 60px 0px;
+    border-bottom: solid 1px red;
+}
+h2.welcome-text{
+    color: #FFFFFF;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size:7vw;
+    font-weight:100;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.welcome{
+    background: url(images/saltnpepper-village-home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.welcome-section {
+padding: 60px 0px;
+text-align: center;}
+
+
+img.salnpapperwhite {
+    width: 20%;
+}
+img.our-brands {
+    width: 100%;
+    padding: 50px;
+    background-color: #FFFFFFE0;
+    border-radius: 6px;
+}
+
+.card-boxes {
+    display: flex;
+    padding: 30px 10px 30px 10px;
+    /* background-color: #FFFFFFE0; */
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+    position: relative;
+    z-index: 0;
+
+}
+.overlay{
+
+    position: absolute;
+    z-index: 1;
+    width: 97.5%;
+    height: 96.5%;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.one{
+    z-index: 2;
+}
+.brands-section  .brand-cards{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00000000;
+}
+.locations > .card-boxes:nth-child(1) > .middle-class{
+background:url(images/islamabad.jfif);
+}
+.locations > .card-boxes:nth-child(2) > .middle-class{
+    background:url(images/faisalabad.jfif);
+}
+.locations > .card-boxes:nth-child(3) > .middle-class{
+    background:url(images/bahawalpur.jfif);
+}
+
+.locations > .card-boxes{
+    padding: 5px;
+    min-width: 300px;
+    max-width: 420px;
+    min-height: 260px;
+    max-height: 300px;
+
+}
+.middle-class, .Express-middle-class{
+background-color: #222222;
+border: solid 2px white;
+border-radius: 5px;
+text-align: center;
+min-height: 210px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.franchises-main.container {
+    text-align: center;
+}
+
+section.franchises {
+    border-top: solid red 1px;
+}
+img.the-line {
+    width: 35%;
+    margin: 60px 0px 30px 0px;
+}
+.row.locations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;}
+    p.brands-subtitle.white-color {
+        margin-bottom: 50px;
+}
+
+.order-btn {
+    font-size: 16px;
+    padding: 6px 26px;
+}
+img.slatnpapperwhite {
+    width: 40vw;
+}
+.middle-class, .Express-middle-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.overlay{
+    position: absolute;
+}
+.Express > .card-boxes:nth-child(1) > .Express-middle-class{
+    background: url(./images/Salt-n-Pepper-Express-Motorway-Bhera.jpg);
+}
+ 
+ 
+.Express > .card-boxes:nth-child(2) > .Express-middle-class{
+    background: url(./images/Salt-n-Pepper-Express-Packages-Mall.jpg);
+}
+ 
+ 
+.Express > .card-boxes:nth-child(3) > .Express-middle-class{
+    background: url(./images/Salt-n-Pepper-Express-Emporium-Mall.jpg);
+}
+ 
+h2.resturantfranchises {
+    text-align: center;
+    font-size: 50px;
+    line-height: 2;
+}
+.divider {
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    width: 15%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 35px auto;
+}
+section.franchises.black-bg {
+    border-bottom: solid 1px #818181;
+    padding-bottom: 100px;
+}
+
+section.Express-franchises {
+    padding-top: 50px;
+    
+}
+
+.banner-image{
+    background: url(./images/02-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border: 1px solid white;
+    margin: auto;
+}
+.banner-box{
+    width: 98% !important;
+    border-radius: 6px;
+    margin: 65px 0px;
+}
+.styled-box {
+    padding: 45px;
+    text-align: center;
+}
+.banner{
+    padding: 65px 0px;
+}
+.container-fluid.banner-box {
+    margin: 50px auto;
+}
+ .padding-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    border: 2px solid red;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 6px;
+
+}
+h3.styled-op-title {
+    text-align: center;
+
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif; 
+border-radius: 6px;
+border-radius: 6px;
+
+
+}
+
+.soons-col  p, .black-titles{
+    color: #222222
+}
+
+.black-titles{
+    font-weight: 600;
+}
+
+p.location-addresses.white-color.bold.one {
+    font-weight: 700;
+}
+section.opening-soons.black-bg {
+    padding: 0px 0px 100px 0px;
+    border-bottom:red solid 1px;
+}
+section.footer-section.black-bg {
+    padding: 45px 0px 0px 0px;
+}
+.col-lg-3.col-md-6.mb-4.mb-md-0.bottom-logo-div {
+    display: flex;
+    flex-direction: column;
+}
+
+p.text-light.footer-desc {
+    text-align: start;
+    font-size: small;
+    line-height: 1.8;
+    margin: 20px 0px;
+}
+
+h5.text-uppercase.mb-0, h5.text-uppercase {
+    color: white;
+    text-align: initial;
+    /* text-decoration: underline; */
+    border-bottom: solid 2px white;
+    line-height: 2;
+}
+
+ul.list-unstyled.styled-list, ul.list-unstyled.mb-0 {
+    line-height: 2;
+    text-align: initial;
+}
+
+
+ul.list-unstyled {
+    line-height: 3;
+    text-align: initial;
+}
+h5.text-newcase.mb-0 {
+    color: white;
+    text-align: start;
+    font-size: initial;
+}
+.TNC {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.spacer {
+    margin: 0px 25px;
+}
+a.text-light.socials {
+    margin: 0px 14px;
+}
+img.stores {
+    width: 136px;
+}
